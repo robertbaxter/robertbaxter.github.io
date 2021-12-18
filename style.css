@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600&display=swap');
+
+/*Common Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    user-select: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    color: hsl(215, 44%, 86%);
+}
+/* End Common Styles*/
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(218, 67%, 5%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 38rem;
+    height: 65rem;
+    background-color: hsl(215, 50%, 10%);
+    text-align: start;
+    color: white;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.178);
+    border: 2px solid hsla(218, 73%, 3%, 0.705);;
+}
+
+.card-img {
+    width: 90%;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+
+.card-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.card-desc {
+    margin-left: 2.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.1rem;
+    color: hsl(216, 38%, 78%);
+}
+
+.row {
+    margin: 2.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.price,.time {
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: hsl(215, 78%, 82%);
+}
+.line {
+    position: relative;
+    background-color: hsla(215, 32%, 27%, 0.315);
+    width: 90%;
+    left: 2rem;
+    height: .15rem;
+    border-radius: 50%;
+}
+
+#name {
+    font-weight: 600;
+}
+
+
+
+.card-author {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 0rem;
+    margin-top: 1.1rem;
+}
+
+.avatar {
+    width: 37%;
+    margin-left: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.171);
+    border-radius: 50%;
+}
+
+.author {
+    margin-left: -2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: hsl(216, 38%, 78%);
+}
+
+i {
+    margin-right: 1rem;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.attribution {
+    margin-top: 2rem;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    font-size: 12px;
+}
