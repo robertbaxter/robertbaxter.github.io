@@ -22,7 +22,7 @@ a {
 /* End Common Styles*/
 
 .main {
-    width: 100%;
+    width: 101vw;
     height: 100vh;
     background-color: hsl(217, 54%, 11%);
     display: flex;
@@ -131,4 +131,110 @@ i {
 .attribution a {
     color: hsl(228, 45%, 44%);
     font-size: 12px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+
+    
+    .card {
+    width: 32rem;
+    height: 58rem;
+    border-radius: 2rem;
+    }
+
+    .avatar {
+        width: 40%;
+        margin-left: 0rem;
+        border: 2px solid rgba(255, 255, 255, 0.171);
+        border-radius: 50%;
+        
+    }
+    .card-img {
+        width: 95.5%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .card-heading {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-left: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .card-desc {
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 3.1rem;
+        color: hsl(216, 38%, 78%);
+    }
+
+    .row {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 338px) {
+    .card {
+        width: 25rem;
+        height: 48rem;
+        border-radius: 2rem;
+    }
+    .card-heading {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-img {
+        width: 92.5%;
+        margin: 1rem;
+        padding: .5rem;
+    }
+
+    .card-desc {
+        margin-left: 2.5rem;
+        margin-top: .25rem;
+        margin-bottom: 0rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 3.1rem;
+        color: hsl(216, 38%, 78%);
+    }
+    .row {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1rem;
+        align-items: center;
+        width: 70%;
+        margin-left: 3.5rem;
+    }
+    .avatar {
+        width: 32%;
+        margin-left: -2rem;
+        border: 2px solid rgba(255, 255, 255, 0.171);
+        border-radius: 50%;
+        
+    }
+    .author{
+        font-size: 1.1rem;
+
+    }
+
+    .author {
+        margin-left: -3rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+        color: hsl(216, 38%, 78%);
+    }
 }
